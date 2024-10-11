@@ -25,7 +25,7 @@ const Header = () => {
             <div className="row">
               <div className="logoWrapper d-flex align-items-center col-sm-2">
                 <Link to="/">
-                  <img src={Logo} alt="yrenestar" />
+                  <img src={Logo} alt="yrenestar"  />
                 </Link>
               </div>
 

@@ -19,7 +19,7 @@ const ProductItem = (props) => {
         <>
             <div className={`productItem ${props.itemView}`} onClick={()=>viewProductDetails(1)}>
         <div className="imgWrapper ">
-        <img src={disfras1} className="w-100"  ></img>
+        <img src={disfras1} className="w-100" alt="producto"   ></img>
     <span className="badge badge-primary">25%</span>
 
         <div className="actions">

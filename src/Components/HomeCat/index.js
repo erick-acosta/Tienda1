@@ -42,7 +42,7 @@ const HomeCat = () => {
                   className="item text-center cursor"
                   style={{ background: item }}
                 >
-                  <img src="https://images.ctfassets.net/621t91s0mnkp/2vbnZLUXLPLAiyVgGOCbkA/75442a5b7cd2412268c1d50ed92faf20/car_q3_24_csfaces_babygirl.png?fm=webp&w=133" />
+                  <img src="https://images.ctfassets.net/621t91s0mnkp/2vbnZLUXLPLAiyVgGOCbkA/75442a5b7cd2412268c1d50ed92faf20/car_q3_24_csfaces_babygirl.png?fm=webp&w=133" alt="logo"  />
 
                   <h6>Bebes chic</h6>
                 </div>

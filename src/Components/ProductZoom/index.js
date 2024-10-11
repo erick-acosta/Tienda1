@@ -41,22 +41,22 @@ const ProductZoom = () => {
                 >
                     <SwiperSlide>
                         <div className="item">
-                            <InnerImageZoom zoomType="hover" zoomScale={1} src={disfras1} />
+                            <InnerImageZoom zoomType="hover" zoomScale={1} src={disfras1} alt="producto" />
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className="item">
-                            <InnerImageZoom zoomType="hover" zoomScale={1} src={disfras2} />
+                            <InnerImageZoom zoomType="hover" zoomScale={1} src={disfras2}  alt="producto"/>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className="item">
-                            <InnerImageZoom zoomType="hover" zoomScale={1} src={disfras3} />
+                            <InnerImageZoom zoomType="hover" zoomScale={1} src={disfras3} alt="producto" />
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className="item">
-                            <InnerImageZoom zoomType="hover" zoomScale={1} src={disfras4} />
+                            <InnerImageZoom zoomType="hover" zoomScale={1} src={disfras4} alt="producto" />
                         </div>
                     </SwiperSlide>
                 </Swiper>
@@ -72,25 +72,25 @@ const ProductZoom = () => {
                 >
                     <SwiperSlide>
                         <div className={`item ${slideIndex === 0 && 'item_active'}`}>
-                            <img src={disfras1} className="w-100" onClick={() => goto(0)} />
+                            <img src={disfras1} className="w-100" onClick={() => goto(0)} alt="producto" />
                         </div>
                         
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className={`item ${slideIndex === 1 && 'item_active'}`}>
-                            <img src={disfras2} className="w-100" onClick={() => goto(1)} />
+                            <img src={disfras2} className="w-100" onClick={() => goto(1)} alt="producto" />
                         </div>
                        
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className={`item ${slideIndex === 2 && 'item_active'}`}>
-                            <img src={disfras3} className="w-100" onClick={() => goto(2)} />
+                            <img src={disfras3} className="w-100" onClick={() => goto(2)} alt="producto" />
                         </div>
                        
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className={`item ${slideIndex === 3 && 'item_active'}`}>
-                            <img src={disfras4} className="w-100" onClick={() => goto(3)} />
+                            <img src={disfras4} className="w-100" onClick={() => goto(3)} alt="producto" />
                         </div>
                        
                     </SwiperSlide>
